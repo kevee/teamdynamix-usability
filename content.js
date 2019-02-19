@@ -3,7 +3,7 @@ $(function() {
     //Don't run extension when logged into administrator interface
     return
   }
-
+  $('body').addClass('tdx-usability')
   window.tdxKeepInWindow = (url, width, height, name, scrollbars) => {
     window.location.href = url
   }
