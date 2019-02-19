@@ -1,4 +1,4 @@
-# (TeamDynamix)[http://teamdynamix.com], we have to talk
+# [TeamDynamix](http://teamdynamix.com), we have to talk
 
 Sure, we like the way you can do workorders and assign them to groups. The emails are nice. Compared to lots of other ticketing products out there, you give a lot of bang for the buck.
 
