@@ -1,0 +1,15 @@
+{
+  "name": "Team Dynamix Unsuck",
+  "version": "1.0",
+  "description": "Fix popup windows and other terrible UI problems with TeamDynamix",
+  "manifest_version": 2,
+  "permissions": ["https://*.teamdynamix.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.teamdynamix.com/*"],
+      "all_frames": true,
+      "css": ["style.css"],
+      "js": ["lib/cash.min.js", "content.js"]
+    }
+  ]
+}
